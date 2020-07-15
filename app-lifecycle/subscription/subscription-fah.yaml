@@ -9,7 +9,7 @@ metadata:
     apps.open-cluster-management.io/github-path: app-lifecycle/fahclient
     apps.open-cluster-management.io/github-branch: master
 spec:
-  channel: fahclient-centos8/app-lifecycle/fahclient
+  channel: fahclient/fahclient-centos8
   placement:
     placementRef:
       name: fah-placement
