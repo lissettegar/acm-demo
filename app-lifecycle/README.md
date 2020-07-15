@@ -5,7 +5,7 @@ https://foldingathome.org/2020/03/15/coronavirus-what-were-doing-and-how-you-can
 
 ## Base image
 
-Using CentOS8 Base image on master branch for compatibility with their available [RPM](https://download.foldingathome.org/releases/public/release/fahclient/centos-6.7-64bit/v7.5/)
+Using CentOS8 Base image for compatibility with their available [RPM](https://download.foldingathome.org/releases/public/release/fahclient/centos-6.7-64bit/v7.5/)
 
 ## Public Registry
 
