@@ -1,0 +1,9 @@
+---
+apiVersion: apps.open-cluster-management.io/v1
+kind: Channel
+metadata:
+  name: pdfgen
+  namespace: pdfgen
+spec:
+  type: GitHub
+  pathname: https://github.com/avaleror/acm-demo.git
