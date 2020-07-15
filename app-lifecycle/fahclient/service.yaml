@@ -4,7 +4,7 @@ metadata:
   labels:
     app: fahclient-centos8
   name: fahclient-centos8
-  namespace: default
+  namespace: fahclient
 spec:
   ports:
   - port: 7396

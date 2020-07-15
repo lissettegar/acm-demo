@@ -2,8 +2,8 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: Channel
 metadata:
-  name: pdfgen
-  namespace: pdfgen
+  name: fahclient-centos8
+  namespace: fahclient
 spec:
   type: GitHub
   pathname: https://github.com/avaleror/acm-demo.git

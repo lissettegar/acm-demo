@@ -11,4 +11,3 @@ spec:
   clusterSelector:
     matchLabels: 
       vendor: OpenShift
-  #clusterReplicas: 1  #Apply to how many matched clusters, default is ALL
