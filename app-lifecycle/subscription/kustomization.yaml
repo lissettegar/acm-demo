@@ -2,5 +2,5 @@ resources:
 - namespace.yaml
 - channel.yaml
 - placementrule.yaml
-- subscription.yaml
+- subscription-fah.yaml
 - application.yaml
