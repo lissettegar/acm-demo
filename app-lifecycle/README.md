@@ -20,7 +20,7 @@ https://quay.io/repository/redhat-emea-ssa-team/fahclient-container
 
 First of all oc client installed and working
 
-Log in to the Hub cluster 
+Log in to the Hub cluster from your terminal (oc login ....)
 
 git clone https://github.com/avaleror/acm-demo.git
 
