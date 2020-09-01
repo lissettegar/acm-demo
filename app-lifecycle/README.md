@@ -14,3 +14,16 @@ Image on [Quay.io](https://quay.io) public registry that you can use to pull the
 https://quay.io/repository/redhat-emea-ssa-team/fahclient-container
 
 ** Source: https://github.com/RedHat-EMEA-SSA-Team/fahclient-container/blob/master/README.md
+
+
+# HOW TO USE IT
+
+First of all oc client installed and working
+
+Log in to the Hub cluster from your terminal (oc login ....)
+
+git clone https://github.com/avaleror/acm-demo.git
+
+cd acm-demo
+
+oc apply -k app-lifecycle/subscription/
