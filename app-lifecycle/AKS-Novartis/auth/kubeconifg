@@ -1,0 +1,19 @@
+apiVersion: v1
+clusters:
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://api.ocp-cluster.sandbox1350.opentlc.com:6443
+  name: api-ocp-cluster-sandbox1350-opentlc-com:6443
+contexts:
+- context:
+    cluster: api-ocp-cluster-sandbox1350-opentlc-com:6443
+    namespace: default
+    user: kube:admin
+  name: default/api-ocp-cluster-sandbox1350-opentlc-com:6443/kube:admin
+current-context: default/api-ocp-cluster-sandbox1350-opentlc-com:6443/kube:admin
+kind: Config
+preferences: {}
+users:
+- name: kube:admin
+  user:
+    token: JxsmraQMZON2GPq7OGSmZvv-KYVtuYbm2knPyPLesCo
