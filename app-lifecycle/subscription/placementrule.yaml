@@ -6,8 +6,6 @@ metadata:
   labels:
     app: fahclient-centos8
 spec:
-  clusterConditions:
-    - type: OK
   clusterSelector:
     matchLabels: 
       vendor: OpenShift
